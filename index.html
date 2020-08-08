@@ -2,7 +2,85 @@
    <head>
       <title>My Page!</title>
    </head>
+   <style>
+      body {
+         background-color: bisque;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #first {
+         color: blue;
+      }
+
+      #second {
+         color: blueviolet;
+      }
+
+      input {
+         background-color: #79b5fa;
+         color: aliceblue;
+         margin: 5px;
+         font-size: 20px;
+         border-radius: 5px;
+      }
+
+      button {
+         color:white;
+         font-size: 25px;
+         background-color: #0074f8;
+         border-color: transparent;
+         border-radius: 5px;
+      }
+
+   </style>
    <body>
-      <h1>My Web Page</h1>
+      <h1 id="first">My Web Page</h1> 
+      
+      <h1 id="second">The last title</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+         Exercitationem eaque ipsum explicabo sint iste impedit dolorum. <br>
+         natus reiciendis quos doloremque sequi, error quibusdam. Aperiam voluptatum sit non dolore voluptas. Consectetur.</p> <!--  parrafo -->
+
+      <h6>my title</h6>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam asperiores corporis quas accusantium, fuga amet nisi officiis a aspernatur vero, ipsa, ratione aperiam eveniet. Commodi aspernatur repellat id voluptatem odit?</p>
+      <form action="">
+         <input type="text" placeholder="write your name"> <br>
+
+         <input type="text" placeholder="Write your lastname"> <br>
+      
+         <label >sexo:  <br>
+            <label > mujer: </label>
+            <input type="radio" name="gender" id=""> 
+            <label > Hombre: </label>
+            <input type="radio" name="gender" id=""> 
+         </label>
+         <br>
+
+         <label >turno:  <br>
+            <label > maniana: </label>
+            <input type="radio" name="turn" id=""> 
+            <label > noche: </label>
+            <input type="radio" name="turn" id=""> 
+         </label> <br> <br>
+
+         <label>materias:</label><br>
+         <input type="checkbox" name="material" id="">
+         <label>Programacion</label> <br>
+         <input type="checkbox" name="material" id="">
+         <label>Diseno Web</label> <br>
+         <input type="checkbox" name="material" id="">
+         <label>Taller de programacion</label> <br>
+         <input type="checkbox" name="material" id="">
+         <label>contabilidad basica</label> <br>
+      </form>
+
+      
+      <br>
+      <input type="date" name="" id="">
+      <input type="button" value="click">
+      <a href="https://www.google.com">google</a>
+      <button disabled="disabled">click</button>
+      <button type="reset">click</button>
    </body>
+
 </html>
