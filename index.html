@@ -1,11 +1,27 @@
+<!DOCTYPE html>
 <html>
    <head>
       <title>My Page!</title>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="styles/styles.css">
       <link rel="javaScript" href="scripts/bootstrap.min.js">
+      <!-- instalacion por CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    <body>
+      <div class="topnav" id="myTopnav">
+            <a href="#">home</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="myForm.html">register</a>
+            <a href="">login</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+         </a>
+      </div>
+
       <div class="size">
          <h1 id="first">My Web Page</h1>
       </div>
@@ -22,8 +38,17 @@
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam asperiores corporis quas accusantium, fuga amet nisi officiis a aspernatur vero, ipsa, ratione aperiam eveniet. Commodi aspernatur repellat id voluptatem odit?</p>
       </div>
 
-      <div class="color3 tam size">
-         <a href="myForm.html">Llenar formulario</a>
-      </div>
+      <script>
+         function myFunction() {
+            var x = document.getElementById("myTopnav");
+            console.log('hola mundo');
+
+            if (x.className === "topnav") {
+               x.className += " responsive";
+            } else {
+               x.className = "topnav";
+            }
+         }
+      </script>
    </body>
 </html>
