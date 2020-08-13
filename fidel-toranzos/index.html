@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>My New WebSite</title> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="javaScript" href="scripts/bootstrap.min.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+        <nav class="topnav" id="myTopnav">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="myForm.html">Register</a>
+                <a href="login.html">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+            </ul>
+        </nav><br>
+        <div class="tprin colortitle"><h1><u>MI PAGINA WEB</u></h1></div><hr>
+        <div class="tprin colorsubtitle"><h2>---Informacion de mi Persona---</h2></div>
+        <div class="tprin colorparr"><p>Mi nombre es Fidel Gonzalo Toranzos Escobar<br>
+            Naci en cochambaba Bolivia, 3/11/95<br>
+            Estudie en el colegio Instituto Americano<br>
+            Estudie primero Ing electromecanica, de la universidad USIP<br>
+            Actualmente estudio sistemas informaticos en el instituto CIPEC
+        </p></div><hr>
+        <div class="tprin colorsubtitle"><h2>---Actividades o Hobby---</h2></div>
+        <div class="tprin colorparr"><p>Los deportes que me gustan son los siguiente:
+            <div class list>
+                <ol>
+                    <li>Futbol</li>
+                    <li>Natacion</li>
+                    <li>Ajedrez</li>
+                </ol>
+            </div>
+            Tambien me gusta programar, los lenguajes que conozco son:
+            <div class list>
+                <ul>
+                    <li>c++</li>
+                    <li>java</li>
+                    <li>c#</li>
+                    <li>visual basic</li>
+                </ul>
+            </div> <!--Tambien se puede realizar sub lineas, insertando otro li en el mismo atributo-->
+        </p></div><hr>
+        <div class="tprin colorsubtitle"><h2>---Aspiraciones---</h2></div>
+        <div class="tprin colorparr"><p>Me gustaria estudiar a nivel Maestria, Doctorado en el exterior<br>
+            Quisiera tener una especialidad en Automatizacion Industrial<br>
+            Lo cual fue el motivo por el querer aprender mas aun en programacion<br>
+            Quisiera traer tecnologia a Bolivia
+        </p></div><hr>
+        <div class="tprin colorparr"><p>A continuacion se realizara un formulario a modo de practica<br>
+            Para la materia de Diseño y Programacion Web 1 del instituto CIPEC<br>
+            En la opcionde Form del Menu Principal podra acceder al formulario de prueba:<br>
+        </p></div><hr>
+        <div class="tprin colorparr"><p>A continuacion se realizara una formulario para practicar<br>
+            La materia de Diseño y Programacion Web 1 del instituto CIPEC<br>
+            Ingrese a la opcion de form del menu principal para acceder al formulario<br>
+        </p></div>
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myTopnav");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                } else{
+                    x.document = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>

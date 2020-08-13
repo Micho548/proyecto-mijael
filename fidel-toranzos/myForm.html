@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/myStyles.css">
+        <link rel="javaScript" href="scripts/bootstrap.min.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="topnav" id="myTopnav">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="myForm.html">Register</a>
+                <a href="login.html">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+            </ul>
+        </nav><br>
+        <div class="tprin colortitle"><h1><center><u>FORMULARIO DE PRUEBA</center></u></h1></div><hr>
+        <form action="">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">Nombre:</td>
+                <td><input type="text" placeholder="Write here"> <br></td>
+            </tr>
+            <tr>
+                <td align="right">Apellido:</td>
+                <td><input type="text" placeholder="Write here"> <br></td>
+            </tr>
+            <tr>
+                <td align="right">Sexo:</td> 
+                <td>Mujer <input type="radio" name="gender" id=""> Hombre <input type="radio" name="gender" id=""></td>
+            </tr>
+            <tr>
+                <td align="right">Fecha de Nacimiento:</td> 
+                <td><input type="date" name="" id=""></td>
+            </tr>
+            <tr>
+                <td align="right">Grado de Profesion:</td> 
+                <td>Estudiante <input type="radio" name="Profesion" id=""> Tecnico <input type="radio" name="Profesion" id=""> Profesional <input type="radio" name="Profesion" id=""></td>
+            </tr>
+            <tr>
+            <tr>
+                <td align="right">Docuemtos de Identificacion:</td>
+                <td>Carnet de Identidad<input type="checkbox" name="Identity" id="">Licencia de Conducir <input type="checkbox" name="Identity" id=""><br>Pasaporte <input type="checkbox" name="Identity" id="">Libreta de Servicio Militar <input type="checkbox" name="Identity" id=""></td>
+            </tr>
+                <td align="right">Correo Electronico:</td>
+                <td><input type="email" placeholder="Write here email.com"></td>
+            </tr>     
+            <tr>
+                <td align="right">Contraseña:</td>
+                <td><input type="password" name="" id=""></td>
+            </tr>  
+            <tr>
+                <td align="right">Ingrese un Color:</td>
+                <td><input type="color" name="" id=""></td>
+            </tr>
+            <tr>    
+            <td align="right">Ingrese una hora:</td>
+            <td><input type="time" name=" id"></td>
+            </tr>
+            <tr>
+                <td align="right">Ingrese un Departamento:</td>
+                <td><select name="Departamento" id="">
+                    <option value=""disabled>Seleccione un Departamento</option>
+                    <option value="Pando">Pando</option>
+                    <option value="La Paz">La Paz</option>
+                    <option value="Tarija">Tarija</option>
+                    <option value="Oruro">Oruro</option>
+                    <option value="Sucre">Sucre</option>
+                    <option value="Cochabamba">Cochabamba</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Chuquisaca">Chuquisaca</option>
+                    <option value="Potosi">Potosi</option>
+                </select></td>
+            </tr>
+        </table>
+        <center><button>Aceptar</button>
+        <button>Cancelar</button></center>
+        </form>
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myTopnav");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                } else{
+                    x.document = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>

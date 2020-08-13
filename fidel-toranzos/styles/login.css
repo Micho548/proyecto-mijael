@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(105, 105, 114);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.container-form{
+    background-color: cadetblue;
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    color: #fff;
+    position: relative;
+}
+
+.container-form h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 1;
+}
+
+.container-form input[type="text"],
+.container-form input[type="password"],
+.container-form input[type="email"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgb(0, 0, 0, 5);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 4px solid #ff851b;
+}
+
+.container-form input[type="text"]:focus,
+.container-form input[type="password"]:focus,
+.container-form input[type="email"]:focus{
+    border-bottom: 4px solid #0075d9;
+}
+
+
+/*.container-form .toggle{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+}*/
