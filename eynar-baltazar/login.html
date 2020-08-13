@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=divice-width.initial">
+        <link rel="stylesheet" href="Styles/login.css">
+        <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="javaScrip"  href="scrpts/bootstrap.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>login</title>
+    </head>
+    <body>
+        <div  class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="myForm.html">Register</a>
+            <a href="">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick ="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        <div class="container-form">
+
+            <div class="form">
+            <h2>Iniciar sesion</h2>
+                <form action="submit">
+                    <input type="text" placeholder="usuario" required>
+                    <input type="password" placeholder="password" required>
+                    <input type="button" value="Iniciar sesion">
+                </form>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                /*console.log("hola mundo");*/
+                if(x.className === "topnav"){
+                x.className += "responsive";
+                } else{
+                    x.className="topnav";
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice,initial-scale=1.0">
+        <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="javaScrip"  href="scrpts/bootstrap.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <title>Form</title>
+            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="MyStyles.css">
+    </head>
+    <body>
+            <div  class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="myForm.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick ="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        <form action="";>
+            <input type ="text" placeholder ="write you name"> <br>
+
+            <input type ="text" placeholder ="write you lastname"> <br> 
+
+            <label> sexo <br>
+                <label> mujer :</label>
+                <input type="radio" name="gender" id="">
+                <label> hombre :</label>
+                <input type="radio" name="gender" id="">
+            </label>
+            <br>
+            <label> turno <br>
+            <label> maniana :</label>
+            <input type="radio" name="turn" id="">
+            <label> noche :</label>
+            <input type="radio" name="turn" id="">
+            </label><br><br>
+            
+            <label>materias</label><br>
+            <input type="checkbox" name="material" id="">
+            <label>programacion</label><br>
+            <input type="checkbox" name="material" id="">
+            <label>diseño web</label><br>
+            <input type="checkbox" name="material" id="">
+            <label>taller de programacion</label><br>
+            <input type="checkbox" name="material" id="">
+            <label>contabilidad basica</label><br>
+        </form>
+
+        <br>
+        <input type="date" name=" id="">
+        <input type="button" value="click">
+        <a href="https://www.google.com">google</a>
+        <button disabled="disabled">click</button>
+        <button type="reset">click</button>
+
+        <a href="index.html"></a>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                /*console.log("hola mundo");*/
+                if(x.className === "topnav"){
+                x.className += "responsive";
+                } else{
+                    x.className="topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
