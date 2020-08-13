@@ -3,19 +3,16 @@
     <head>
         <title>My Page</title>
         <meta charset="utf-8"><!--te permite codificacion de caracteres donde no habra problema con simbolos ,eñes,acentos,etc -->
-        <meta http-equiv="expires" content="tiempo de expiración en segundos"/><!--contenido con tiempo limite-->
-        <meta name="author" content="Eynar B."/><!--nos sirve para firmar un documento web-->
-        <meta name="description" content="Contenido relevante para captar la atencion"/><!--el el campo de informacion que el usuario vera en los resultados de busqueda-->
-        <meta name="generator" content="prestashop"/><!--La meta generator aporta información sobre con que gestor de contenidos o otros métodos se ha generado un documento web. NO se debe usar cuando hemos picado el código manualmente.-->
-        <meta name="robots" content="noindex,follow"/><!--indica a los motores de búsqueda si la página debe ser investigada o no. También informan  del modo como se deben rastrear los enlaces que google encuentre en nuestro documento web.-->
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="javaScrip"  href="scrpts/bootstrap.min.js">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="javaScrip"  href="scripts/bootstrap.min.js">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav class="topnav" id="myTopnav">
-            <a href="#" class="active">Home</a>
+            <ul>
+            <a href="index.html">Home</a>
             <a href="#">News</a>
             <a href="#">Contact</a>
             <a href="#">About</a>
@@ -24,6 +21,7 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
             </a>
+            </ul>
         </nav>
         <div class="size">
             <h1 id="first">Mi pagina Web</h1>
@@ -61,12 +59,12 @@
             </p>
         </div>
         <script>
-            function myFunction() {
+            function myFunction(){
                 var x = document.getElementById("myTopnav");
                 if(x.className === "topnav") {
-                x.className += "responsive";
-                } else{
-                    x.className="topnav";
+                x.className += " responsive";
+                } else {
+                    x.className = "topnav";
                 }
             }
         </script>

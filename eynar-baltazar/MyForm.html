@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=divice,initial-scale=1.0">
-        <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="stylesheet" href="styles/styles.css">
         <link rel="javaScrip"  href="scrpts/bootstrap.min.js">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <title>Form</title>
@@ -11,7 +11,8 @@
             <link rel="stylesheet" href="MyStyles.css">
     </head>
     <body>
-            <div  class="topnav" id="myTopnav">
+            <nav  class="topnav" id="myTopnav">
+            <ul>
             <a href="index.html">Home</a>
             <a href="#">News</a>
             <a href="#">Contact</a>
@@ -21,7 +22,8 @@
             <a href="javascript:void(0);" class="icon" onclick ="myFunction()">
             <i class="fa fa-bars"></i>
             </a>
-            </div>
+            </ul>
+        </nav>
         <form action="";>
             <input type ="text" placeholder ="write you name"> <br>
 
@@ -62,13 +64,12 @@
         <a href="index.html"></a>
 
         <script>
-            function myFunction() {
+            function myFunction(){
                 var x = document.getElementById("myTopnav");
-                /*console.log("hola mundo");*/
-                if(x.className === "topnav"){
-                x.className += "responsive";
-                } else{
-                    x.className="topnav";
+                if(x.className === "topnav") {
+                x.className += " responsive";
+                } else {
+                    x.className = "topnav";
                 }
             }
         </script>
