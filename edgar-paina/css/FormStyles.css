@@ -1,0 +1,34 @@
+.formulario{
+    width: 100%;
+    border: 1px blueviolet solid;
+   text-align: center;
+  }
+  .header{
+    overflow: hidden;
+    background-color: rgba(235, 161, 51, 0.849);
+    
+  }
+  .header a{
+    
+    text-decoration: solid;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(245, 245, 247);
+    padding: 14px 16px;
+  }
+  .izquierda{
+    text-align: center;
+    float: left;
+  }
+  .derecha{
+    text-align: end;
+    float: right;
+  }
+  .header a:hover{
+    background-color: rgb(43, 19, 12);
+    color: azure;
+  }
+  .header a.active{
+    background-color: cornsilk;
+    color: aqua;
+  }
