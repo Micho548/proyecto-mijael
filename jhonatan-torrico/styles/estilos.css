@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background-color: rgba(34, 21, 16, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heder {
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+.heder a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.heder .responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.heder .icon {
+    display: none;
+    }
+.dere {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.heder a:hover {
+    background-color: #ddd;
+    color: rgb(3, 2, 3);
+}
+
+
+.p1{
+    color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    color: rgb(8, 185, 8);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.p3 {
+    color: rgb(216, 136, 39);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tam {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(97, 21, 15);
+    font-family: serif;
+}
+
+
+

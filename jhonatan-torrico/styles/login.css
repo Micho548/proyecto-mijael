@@ -1,0 +1,36 @@
+.cont-form {
+    background-color: black;
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    color: cornsilk;
+    position: relative;
+}
+
+.cont-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.cont-form input[type="text"],
+.cont-form input[type="password"],
+.cont-form input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgb rgb(0, 3, 0);
+    color: seashell;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 4px solid #db7b0e;
+}
+
+.cont-form input[type="text"]:focus,
+.cont-form input[type="password"]:focus,
+.cont-form input[type="email"]:focus {
+    border-bottom: 4px solid #e0e408;
+}

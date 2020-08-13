@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--este meta permite los emticons y acentos latinos-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--este meta el area de la ventana donde el contenido web es visible-->
+        <meta name="description" content="Practica">
+        <!--este meta sirve para añadir una descrpcion a la pagina web-->
+        <meta name="author" content="JhonatanTorrico">
+        <!--este meta sirve para definir el autor-->
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <!--este mete sirve para definir palabras clave para motor de busqueda-->
+
+        <title>MI PRIMERA PAGINA</title>
+        <link rel="stylesheet" href="styles/estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+    </head>
+    
+    <body>
+        <div class="heder" id="myheder">
+            <a href="index.html">MENU PRINCIPAL</a>
+            <a href="#">VER MAS</a>
+            <div class="dere">
+            <a href="form.html">REGISTRARSE</a>
+            <a href="#">INICIAR SECION</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div> 
+        </div>
+        <div>
+            <h1>Datos Curiosos Sobre El Mundo</h1>
+        </div>
+
+        <div>
+            <h2>Los ojos hacen mas ejercicio que las piernas</h2>
+        </div>
+
+        <div class="p1 tam">
+            <p>Los músculos de nuestros ojos se mueven mucho más de lo que imaginas… ¡Aproximadamente 100.000 veces al día!<br>
+            Para que te des una idea de cuánto es eso, deberías saber esta relación: para que los músculos de la pierna<br>
+            hagan la misma cantidad de ejercicio, deberías caminar aproximadamente 80 km por día.</p>
+        </div>
+        
+        <div>
+            <h2>El corazon podria mover un coche</h2>
+        </div>
+        
+        <div class="p2 tam">
+            <p>Más allá de la fuerza espiritual, el corazón es un órgano sumamente poderoso. De hecho, la presión que genera<br> 
+            al bombear sangre podría, si saliera del cuerpo, alcanzar los 10 metros de distancia.<br>
+            Para que te des una idea, la potencia generada al día por un corazón bastaría para mover un coche durante 32 kilómetros.</p>
+        </div>
+        
+        <div>
+            <h2>Los hombres y mujeres escuchan de manera diferente</h2>
+        </div>
+
+        <div class="p3 tam">
+            <p>La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores<br>
+            de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos<br>
+            sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos<br>
+            lados para este propósito.</p>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myheder");
+                if (x.className === "heder") {
+                x.className += "responsive";
+                } else {
+                x.className = "heder";
+                }
+            }
+        </script> 
+        
+    </body>
+</html>
