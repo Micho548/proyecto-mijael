@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(218, 143, 143);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.header{
+    overflow: hidden;
+    background-color: rgba(133, 103, 60, 0.849);
+  }
+  .header a{
+    text-decoration: solid;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(245, 245, 247);
+    padding: 14px 16px;
+  }
+  .iz{
+    text-align: center;
+    float: left;
+  }
+  .de{
+    text-align: end;
+    float: right;
+  }
+  .header a:hover{
+    background-color: rgb(43, 19, 12);
+    color: azure;
+  }
+  .header a.active{
+    background-color: cornsilk;
+    color: aqua;
+  }
+  .contenedor{
+    background-color: rgb(251, 173, 83);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    color: rgb(247, 242, 241);
+    position: relative;
+    
+}
+.contenedor h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 480;
+    line-height: 1;
+}
+.contenedor input[type="text"],
+.contenedor input[type="password"],
+.contenedor input[type="email"]{
+    display: block;
+    width: 100%;
+    padding: 18px 0px;
+    outline: none;
+    margin: 0 0 20px 0;
+    background: rgb(0, 0, .5);
+    color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 4px solid white ;
+
+}
+.form{
+    text-align: center;
+}
