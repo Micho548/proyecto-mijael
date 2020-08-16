@@ -1,0 +1,76 @@
+
+    body{
+        rgb(250, 250, 249); 
+        background-color: rgb(253, 238, 219);  
+        color: rgb(8, 8, 8);
+        font-family: initial;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    .tam1{
+        font-size: 4rem;
+    }
+    .tam2{
+        font-size: 2em;
+    }
+    .tam3{
+        font-size: 3em;
+    }
+    .tam4{
+        font-size: 25px;
+    }
+
+    .size1{
+        
+        margin-top: 1rem;
+        text-align: center;
+        max-width:100%;
+        width: 100%;
+
+    }
+    .size2{
+        max-width: 50rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .size3{
+        
+        margin-top: 0px;
+        text-align: justify;
+        
+    }
+    .size4{
+        max-width: 20rem;
+        margin-left: 50rem;
+        text-align: center;
+        margin: 48px auto;
+    }
+    .size5{
+        max-width: 50rem;
+        margin-left: 15rem;
+        text-align: center;
+    }
+    .size6{
+        text-align: left;
+    }
+    .letra1{ 
+        font-family: 'Courier New', Courier, monospace;    
+        border-radius: 10px;
+    }
+    .letra2{
+        font-family: unset;      
+    }
+    label{
+        color: rgb(255, 255, 255);
+        margin:15px;
+    }
+    input{
+        font-size: 50px;
+        margin: 15px;
+        border-radius: 3px;    
+    }
+    select{
+        font-size: 50px;
+        margin: 15px;
+        border-radius: 3px;
+    }

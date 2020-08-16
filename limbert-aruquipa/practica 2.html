@@ -1,0 +1,170 @@
+<html>
+<head>
+    <title>Practica 2</title>
+</head>
+<style>
+    body{
+        background-color: rgb(20, 41, 41);
+        color: lightskyblue;
+        font-family: initial;
+        border-radius: 20px;
+    }
+    #titulo { 
+        font-family: 'Courier New', Courier, monospace;
+        color:red;
+        background-color:transparent;
+        font-size: 35px;
+        border-radius: 5px;
+    }
+    #ahref{
+        color: lightskyblue;
+        background-color: transparent;
+    }
+    #subT1{
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        background-color: yellow;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    #subT2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        background-color: red;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    #subT3{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: blue;
+        background-color: cornflowerblue;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    #sub{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow;
+    }
+    #texto1{
+        font-family: sans-serif;
+        background-color: transparent;
+        color: springgreen;
+    }
+    #texto2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: greenyellow;
+    }
+    #texto3{
+        font-family: unset;
+            color:darkorange;
+    }
+    #form{
+        margin: 0px;
+        background-color:rgb(48, 48, 129);  
+    }
+    label{
+        color: rgb(130, 206, 202);
+        margin:15px;
+    }
+    input{
+        font-size: 29px;
+        background-color: rgb(66, 66, 231) ;
+        color: white;
+        margin: 15px;
+        border-radius: 3px;    
+    }
+    #list{
+        font-size: 29px;
+        background-color: rgb(66, 66, 231) ;
+        color: white;
+        margin: 15px;
+        border-radius: 3px;  
+    }
+    #chek{
+        margin: 5px;
+    }
+    #btnReserva{
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        border-color: tomato;
+        margin: 50px;
+        width: 200px;
+        height: 50px;
+    }
+</style>
+<body>
+    <div>
+        <h1 id="titulo">BIENVENIDOS  RITZ APART  HOTEL</h1>
+        <a id="ahref" href="www.ritzbolivia.com">Siguenos en nuestra Pagina Oficial: www.ritzbolivia.com</a>
+        <h2 id="subT1">Apart Hotel de 5 estrellas en La Paz</h2>
+        <p id="texto1">​Diseñado para viajeros de negocios exigentes, el Ritz Apart Hotel es uno de los mejores hoteles de 5 estrellas en La Paz, Bolivia. Remodelado en 2018 para ofrecerle una estadía aún mas placentera, nuestro hotel se encuentra estratégicamente ubicado cerca del centro de la ciudad, al mismo tiempo cerca de las principales embajadas, centros de negocios, entidades financieras y estaciones del TELEFÉRICO (linea blanca y amarilla) . Nuestra ubicación se encuentra en un tranquilo barrio residencial que ofrece una estadía placentera y relajante con fácil acceso a todas las áreas de la ciudad.</p>
+        <h2 id="subT2">GASTRONOMÍA</h2>
+        <h3 id="sub">Deliciosa Cocina en El Restaurante Duke’s</h3>
+        <p id="texto2">El Ritz Apart Hotel ofrece dos lugares excepcionales para disfrutar de un delicioso menú con diferentes especialidades, El Restaurante Duke's..  En el Restaurante Duke's puede encontrar un ambiente elegante con gran variedad de especialidades internacionales.. Disfrute de una taza rápida y casual de café y sándwich en Restaurante Duke's.</p>
+        <h2 id="subT3">Habitaciones y Suites</h2>
+        <p id="texto3">El Ritz Apart Hotel ofrece 70 suites de 5 estrellas en el centro de La Paz - Bolivia. Desde nuestras Suites Ejecutivas hasta nuestra Suite Presidencial de lujo, todas las habitaciones tienen un diseño elegante y confortable para ofrecer una estadía relajante después de un día de viaje o reuniones. Los interiores están dispuestos para acomodar estadías de una semana o más con servicios que incluyen wifi gratuito, kitchenette, minibar, servicio a la habitación y TV de pantalla plana de alta definición con programación por cable. En cada momento de su estadía, nuestro personal está a su servicio para atender cualquier solicitud.</p>
+        <h1>FORMULARIO DE RESERVA</h1>
+        <div id="form">    
+        <label for="nombre">Nombre </label>
+        <div> 
+            <input type="text" name="" id="">
+        </div>
+        <label for="apellido">Apellido</label>
+        <div>
+            <input type="text" name="" id="">
+        </div>
+        <label for="ci">C.I. Pasaporte N°</label>
+        <div>
+            <input type="text" placeholder="Ejem: 10905913" name="" id="">
+        </div>
+        <label for="list">Nacionalidad</label>
+        <div>
+            <select name="nacionalidad" id="list">
+                <option value="">Argentina</option>
+                <option value="">Bolivia</option>
+                <option value="">Brasil</option>
+                <option value="">Corea</option>
+                <option value="">Otro</option>
+            </select>
+        </div>  
+        <label for="telefono">Telefono Movil</label>
+        <div>
+            <input type="text" placeholder="Ejem: 74040661" name="" id="">
+        </div>
+        <label for="correo">Correo Electronico</label>
+        <div>
+            <input type="email" placeholder="Hola02@gmail.com" name="" id="">
+        </div>
+        <label for="">Numero de Acompañantes</label>
+        <div>
+            <label for="" id="">1</label>
+            <input type="checkbox" name="" id="">
+            <label for="" id="chek">2</label>
+            <input type="checkbox" name="" id="">
+            <label for="" id="chek">3</label>
+            <input type="checkbox" name="" id="">
+            <label for="" id="chek">Otro</label>
+            <input type="checkbox" name="" id="">
+        </div>
+        <label for="">Genero</label>
+        <div>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" id="">
+        </div>
+        <div>
+            
+            <label for="fEntrada">Check Inn</label>
+            <input type="date" name="" id="">
+        </div>
+        <div>
+            <label for="fSalida">Check Out</label>
+            <input type="date" name="" id="">
+        </div>
+        <input type="button" id="btnReserva" value="RESERVAR">
+    </div>
+</body>
+</html>
