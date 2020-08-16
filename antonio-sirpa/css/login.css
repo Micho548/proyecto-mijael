@@ -1,0 +1,70 @@
+body {
+    background-color: #c7d1f5;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: slateblue;
+}
+.header {
+    overflow: hidden;
+    background-color: rgba(235, 161, 51, 0.849);
+}
+.header a{
+text-decoration: solid;
+font-size: 25px;
+display: inline-block;
+color: rgb(245, 245, 247);
+padding: 14px 16px;
+}
+
+.izquierda {
+text-align: center;
+float: left;
+}
+.derecha {
+    text-align: center;
+    float: right;
+}
+.header a:hover{
+    background-color: rgba(43, 161, 51, 0.849);
+    color: azure;
+}
+.header a.active{
+    background-color: cornsilk;
+    color: aquamarine;
+}
+.container-form {
+    background-color: rgb(0, 0, 0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    color: #fff;
+    position: relative;
+    border-radius: 25px;
+}
+.container-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+
+.container-form input[type="text"],
+.container-form input[type="password"],
+.container-form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 18px 0px;
+    outline: none;
+    margin: 0 0 20px 0;
+    background: rgb(0, 0, .5);
+    color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 4px solid white;
+}
+.form{
+    text-align: center;
+}
