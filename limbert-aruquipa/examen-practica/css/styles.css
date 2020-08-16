@@ -1,0 +1,116 @@
+body{
+    background-color: #0aceff31;
+}
+.topNav{
+    overflow: hidden;   
+    position: unset;
+    width: 100%;
+    list-style-type: none;
+    background-color:none;
+    
+}
+.topNav a{
+    /*float: left;*/
+    /*display: block; */
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: #1491da;
+}
+.topNav a:hover{
+   /* border-color: chocolate;*/
+    color: #000000;
+    border-right: 1px solid #0c0c0c96;  /*esto es el colo que separa la lista de menus*/   
+    background-color: #13bce644;
+  
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+.centerNav{
+    
+    overflow: hidden;   
+    position: unset;
+    width: 100%;
+    list-style-type: none;
+    margin: 30px auto;
+    padding: 8px;
+    background-color: #13bbe6;
+    border-radius: 50px;
+    width: 70rem;
+  
+}
+.centerNav a{
+    padding: 5px 28px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+.centerNav a:hover{
+    color: #ff0000;
+    border-right: 1px solid #ff0707c7;  /*esto es el colo que separa la lista de menus*/  
+    
+}
+.raya{
+    border-top-style: solid;
+    color: #1491da;
+}
+h1{  
+    color: rgb(5, 176, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    text-align: center;
+    padding: 50px 20px;
+}
+h3{
+    color: rgb(5, 176, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+p{
+    color: rgb(3, 3, 3);
+    background-color: #13bce65d;
+    
+}
+
+.caja1{
+    float: left;
+    text-align: center;
+    margin: 0px 0px;
+}
+.caja2{
+    float: left;
+    text-align: center;
+    margin: 0px 100px;    
+}
+.caja3{
+    float: left;;
+    text-align: center;  
+    margin: 0px 20px;
+}
+
+.caja4{
+    float: left;;
+    text-align: center;  
+    margin: 0px 180px;
+}
+
+.pag{
+    padding: 50px 5px;
+}
+
+.btn{
+    font-size: 20px;
+    color: #0768df;
+    border-color: #0768df;
+}
+
+
