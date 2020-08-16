@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    color: black;
+}
+
+.containerregister{
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(248, 242, 242);
+    max-width: 335px;
+    width: 100%;
+    margin: 70px auto;
+    padding: 10px;
+    color: #fff;
+    position: static;
+}
+
+.containerregister table{
+    color: black;
+}
+
+.tam{
+    width: 326px;
+}
+
+.containerregister input[type="text"],
+.containerregister input[type="password"],
+.containerregister input[type="email"]{
+    color: rgb(3, 1, 1);
+    border: none;
+    border-radius: 4px;
+    border-bottom: 3px solid #ff851b;
+}
+
+.containerregister input[type="text"]:focus,
+.containerregister input[type="password"]:focus,
+.containerregister input[type="email"]:focus{
+    border-bottom: 4px solid rgba(187, 16, 101, 0.658);
+}

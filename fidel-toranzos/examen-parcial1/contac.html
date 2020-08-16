@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimin-scale=1.0">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="javaScript" href="scripts/bootstrap.min.js">
+    <link rel="stylesheet" href="Styles/Stylescontact.css">
+    <link rel="stylesheet" href="Styles/StylesRegister.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <a href="index.html" class="left">Hogar</a>
+            <a href="#" class="left">Nuevo</a>
+            <a href="#" class="left">Acerca</a>
+            <a href="#" class="left">Contactos</a>
+            <a href="registro.html" class="right">Registro</a>
+            <a href="iniciar.html" class="right" >Iniciar Sesion</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+        </ul>
+    </nav>
+
+    <div class="containercontact">
+        <p><h2 class="left"><strong class="color">BACO /</strong class="black"><strong> Usted puede contactarnos de las siguiente maneras...</strong></h2></p>
+    </div>
+
+    <div class="containercontact">
+        <table border="0" width="100%">
+            <tr>
+                <td class="left"><p>Puede enviarnos un correo electronico</p>
+                    <p>Nombre:</p><p><input type="text" name="" id="" placeholder="Ingrese su nombre"></p>
+                    <p>Correo Electronico:</p><p><input type="email" name="" id="" placeholder="Ingrese su correo electronico"></p>
+                    <p>Tema:</p><p><input type="text" name="" id="" placeholder="Ingrese su tema"></p>
+                    <p>Mensaje:</p>
+                </td>
+                <td class="center"><p>Nosotros estamos aqui</p>
+                    <p><img src="Image/Ubicacion.png"></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="left"><p><input type="text" style="width : 240px; height : 140px" placeholder="Coloque su mensaje"></p>
+                    <p class="center"><button>Enviar</button></p></td>
+                <td class="center"><p>Habla a:</p>
+                <p><a href="https://www.facebook.com/pages/category/Beer-Garden/Cervecer%C3%ADa-Artesanal-BACO-104453150970679/">https://facebock.com/baco</a></p>
+                <p>Calle Chimane entre Ismael Cespedes y Luis Montaño n#154</p><p>Telefonos/Celular: 4785123/68741205</p></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p class="footerlaling">Copyright 2020 <strong class="color">Cerveceria Artesanal Baco</strong> todos los derechos reservados</p>
+    </div>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+            } else{
+                x.document = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
