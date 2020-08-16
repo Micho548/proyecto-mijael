@@ -1,0 +1,29 @@
+.container-form{
+    background-color: lightslategrey;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    color: lightyellow;
+}
+.container-form h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 1;
+}
+
+.container-form input[type="text"],
+.container-form input[type="password"]{
+    outline: none;
+    display: block;
+    width: 95%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: lightsteelblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 4px solid greenyellow;
+
+}

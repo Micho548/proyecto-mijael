@@ -10,7 +10,6 @@ body {
 }
 
 .topnav a {
-   float: left;
    display: block;
    color: #f2f2f2;
    padding: 14px 16px;
@@ -19,11 +18,11 @@ body {
 }
 
 .left {
-   text-align: start;
+   float: left;
 }
 
 .right {
-   text-align: end;
+   float: right;
 }
 
 .topnav a:hover {

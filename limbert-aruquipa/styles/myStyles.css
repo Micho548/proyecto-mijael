@@ -1,0 +1,53 @@
+.color1{
+    color: rgb(245, 244, 244);
+}
+.color2{
+    color: black;
+}
+.color2 a{
+    color: black;
+}
+.color3{
+    color: rgb(199, 183, 157);
+}
+.fondo1{
+    background-color: rgb(148, 141, 130);
+}
+.fondo2{
+    background-color: rgb(143, 107, 77);
+}
+
+
+
+
+
+
+
+li {
+    float: left;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(143, 107, 77);
+}
+/*ESTO LE DA UN EFECTO DE SEÑALADO AL MOUSE*/
+li a:hover {
+    background-color: rgb(122, 112, 103);
+    color: rgb(255, 255, 255);
+}
+li {    /* ESTOS DOS HACEN UN SEPARADO DE LINEA ENTRE CADA PESTAÑA*/
+    border-right: 1px solid #bbb;
+} 
+li:last-child {
+    border-right: none;
+}

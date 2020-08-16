@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimin-scale=1.0">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/StylesRegister.css">
+    <link rel="javaScript" href="scripts/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registro</title>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <a href="index.html" class="left">Hogar</a>
+            <a href="#" class="left">Nuevo</a>
+            <a href="#" class="left">Acerca</a>
+            <a href="contac.html" class="left">Contactos</a>
+            <a href="registro.html" class="right">Registro</a>
+            <a href="iniciar.html" class="right" >Iniciar Sesion</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+        </ul>
+    </nav>
+
+    <div class="containerregister">
+        <h2 class="center"><u>Registro de Cuentas</u></h2>
+        <form action="">
+            <table border="0" width="100%">
+                <tr>
+                    <td class="left"><p>Nombre</p><p><input type="text" name="" id="" placeholder="Nombre Completo"> <input type="text" name="" id="" placeholder="Apellido Completo"></p></td>
+                </tr>
+                <tr>
+                    <td class="left"><p>Correo Electronico Actual</p><p><input type="email" class="tam" name="" id="" placeholder="Correo Electronico"></p></td>
+                </tr>
+                <tr>
+                    <td class="left"><p>Nombre de Ingreso</p><p><input type="text" class="tam" name="" id="" placeholder="Nombre de Ingreso"></p></td>
+                </tr>
+                <tr>
+                    <td class="left"><p>Contraseña</p><p><input type="password" class="tam" name="" id="" placeholder="Contraseña"></p></td>
+                </tr>
+                <tr>
+                    <td class="left"><p>Confirmacion de Contraseña</p><p><input type="password" class="tam" name="" id="" placeholder="Repite la Contraseña"></p></td>
+                </tr>
+            </table>
+            <p><button>Registra</button> <button>Cancelar</button></p>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p class="footerlaling">Copyright 2020 <strong class="color">Cerveceria Artesanal Baco</strong> todos los derechos reservados</p>
+    </div>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+            } else{
+                x.document = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
