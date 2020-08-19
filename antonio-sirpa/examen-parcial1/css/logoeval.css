@@ -36,7 +36,7 @@ body{
     background-color: rgb(43, 19, 12);
     color: azure;
 }
-}
+
 .header a.active{
   background-color: cornsilk;
   color: aqua;
@@ -57,6 +57,7 @@ body{
     color: rgb(77, 142, 158);
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
+}
 .titulo{
     color: #642a73;
     font-size: 30px;
