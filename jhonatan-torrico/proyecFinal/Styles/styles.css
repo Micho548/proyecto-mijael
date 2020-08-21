@@ -1,0 +1,21 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    background-color: rgb(182, 181, 181);
+}
+
+.navbar {
+    min-height: 5rem;
+}
+
+.py-6 {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+#hero {
+    background-image: url("../imagenes/imagen4.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 900px;
+    color: #8d1e1e;
+}
