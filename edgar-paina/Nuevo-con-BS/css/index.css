@@ -20,7 +20,6 @@
    margin: auto;
    font-size: 18px;
    line-height: 1.9;
-   font-family: poppins;
 }
 .carousel-caption a{
     text-transform: uppercase;
@@ -32,7 +31,6 @@
     border-radius: 50%;
 }
 .navbar-nav a{
-    font-family: poppins;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
@@ -44,4 +42,7 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+}
+.font{
+    font-family: serif;
 }
