@@ -97,7 +97,23 @@
       </div>
    </div>
    <script>
+      var myData;
+
+      const myOtherData = 'Homa mundo!';
+
+      function checkData() {
+         if(document.form1.threeChar.value.lenght == 3) {
+            return true;
+         } else {
+            alert('insert more characters');
+            document.form1.threeChar.value + 'not valid';
+            return false;
+         }
+      }
+
       function word() {
+         let myData1 = Math.PI;
+         console.log(myData1);
          return "hola mundo!";
       }
    </script>
