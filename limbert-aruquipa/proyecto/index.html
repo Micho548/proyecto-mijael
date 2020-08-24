@@ -6,12 +6,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <title>Proyecto</title>
+    <title id="proyecto" >Proyecto</title>
 </head>
 <body>
-    <h1 class="card-title">PROYECTO</h1>
-    
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +39,43 @@
     </div>
     </nav>
 
+    <h8 id="elemento1">Pasa el MOUSE AQUI</h8>
+    <p>
+    
+    
+    
+    <button onclick="hora()">¿Que hora es? Desde un SCRIPT </button>
+    <button onclick="document.getElementById('elemento2').innerHTML= Date()" >¿Que hora es?</button>
+    <p id="elemento2"></p>
+
+    <p id="elemento3"></p>
+
+    <p id="elemento4"></p>
+
+    <script>
+        var pasadas=0;
+        var x = suma(5, 6);
+       
+       
+        function anunciarPasadas() {
+            pasadas=pasadas+1;
+            alert('Has pasado ' + pasadas + ' ves');
+        }
+        document.getElementById('elemento1').addEventListener('mouseenter', anunciarPasadas)
+
+        function hora() {
+            document.getElementById("elemento2").innerHTML= Date();
+        }
+
+        function suma(a, b) {
+            return a+b;
+        }
+        document.getElementById('elemento3').innerHTML=x + ' es el total de SUMA';  
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="../proyecto/js/script.js"></script>
 </body>
 </html>
