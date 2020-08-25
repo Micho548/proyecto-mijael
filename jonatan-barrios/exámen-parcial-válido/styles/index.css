@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/fondo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+}
+
+
+
+.texto {
+    font-size: 35px;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    color: rgb(235, 235, 235);
+}
+
+.txt {
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    padding: 90px;
+    color: rgba(9, 108, 121, 0.637)7);
+    background-image: url('images/fone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    /*background-attachment: fixed;    fija la imagen */
+
+
+/*.txt2 {
+    margin-bottom: 16px;
+    color: white;
+    font-size: 14px;
+}*/
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    overflow:hidden;
+    padding: 2px;
+}
+
+.header {
+    background: rgb(39, 39, 39);
+    color: white;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+.header a.active {
+    background-color: #bbbbbb;
+    color: white;
+}
+
+.left {
+    float: left;
+ }
+
+ .right {
+    float: right;
+ }
+ 
+.header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 300px;  /**/
+}
+
+.header a:hover {
+    text-decoration: none;    /* underline: subrayado txt*/
+}
+
+.navigator {
+    width:100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.navigator ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} 
+
+.navigator ul li {
+    display: inline-block;    /*pa mantener encuadre del texto menu*/
+}
+
+.navigator ul li a { 
+    display: block;
+    padding: 1px;
+    transition: all 0.3s linear;     /*efecto menu*/
+    border-radius: 7px;
+}
+
+.navigator ul li a:hover {
+    background: #4a4a4a;
+    padding: 8px;      /*efecto menu*/
+}
+
+.main {
+    padding: 20px;
+    color: snow;
+}
+
+.cp {
+    padding: 20px;
+    width: 1500px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1000px;
+}
+
