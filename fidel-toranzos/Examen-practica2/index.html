@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/stylesIndex.css">
@@ -10,11 +13,11 @@
 </head>
 <body>  
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #d1d0d0;">
-        <a class="navbar-brand" href="index.html"><img src="imagen/logo_meraki.jpg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <a class="navbar-brand"><img src="imagen/logo_meraki.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Hogar <span class="sr-only">(current)</span></a>
@@ -37,11 +40,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="register.html">Suscripcion</a>
                 </li>
-                
             </ul>
-            <ul class="form-inline my-2 my-lg-0">
+            <ul class="form-inline my-2 my-lg-0 text-center">
                 <div class="mr-sm-2">
-                    <a class="nav-link float-right" href="register.html"><img class="icon" src="icon/shopping-cart.png"></a>
+                    <a clase="nav-link del float-right" href="register.html"><img src="icon/shopping-cart.png"></a>
+                </div>
+            </ul>
+            </ul>
+            <ul class="form-inline my-2 my-lg-0 " >
+                <div class="mr-sm-2 text-center">
+                    <h4 clase="nav-link float-right"><Label>0</Label></h4>
                 </div>
             </ul>
         </div>
@@ -138,6 +146,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Personalizados</h5>
                     <p class="card-text">Se Realiza Trabajos En Muebles Personalizado, Segun a Gusto De Nuestros Clientes.</p>
+                    <a class="btn btn-outline-primary" href="register.html" role="button">Suscribete</a>
                     <p class="card-text"><small class="text-muted">MERAKI Muebles Personalizados</small></p>
                 </div>
             </div>
@@ -180,7 +189,7 @@
 
         <div class="alert alert-primary text-center" role="alert">
             <h1><p class="card-text">Nuestra Historia</p></h1>
-            <h5><p class="card-text">Desde hace más de 7 años dedicados a la fabricación de muebles, <br>con esfuerzo y perseverancia iniciaron nuestros fundadores Franz Ramoz Hinojoda. <br>y Arminda Tola. Durante el tiempo, <br>nuestra empresa ha acumulado vastos conocimientos de nuestra industria...</p></h5>
+            <h5><p class="card-text">Desde hace más de 7 años dedicados a la fabricación de muebles, <br>con esfuerzo y perseverancia iniciaron nuestros fundadores Franz Ramoz Hinojoda. <br>y Lucy Fuentes Lazarte. Durante el tiempo, <br>nuestra empresa ha acumulado vastos conocimientos de nuestra industria...</p></h5>
             <a class="btn btn-outline-primary" href="we.html" role="button">Saber Mas Sobre Nosotros...</a>
         </div>
 
@@ -197,9 +206,5 @@
                 </tr>
             </thead>
         </table>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

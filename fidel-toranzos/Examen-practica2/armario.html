@@ -3,45 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/stylesIndex.css">
+    <link rel="stylesheet" href="styles/Stylesmuebles.css">
+    <script language="javascript" src="JavaScript/JavaMuebles.js"></script>
     <title>Meraki.Muebles.Personalizados</title>
 </head>
 <body> 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #d1d0d0;">
-        <a class="navbar-brand" href="index.html"><img src="imagen/logo_meraki.jpg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Hogar <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos </a>
-                <div class="dropdown-menu sizetext" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="armario.html">Armarios</a>
-                    <a class="dropdown-item" href="escritorio.html">Escritorios y Mesas</a>
-                    <a class="dropdown-item" href="Estanteria.html">Estanterias</a>
-                    <a class="dropdown-item" href="contact.html">Muebles Personalizados</a>
+        <a class="navbar-brand"><img src="imagen/logo_meraki.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Hogar <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos </a>
+                    <div class="dropdown-menu sizetext" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="armario.html">Armarios</a>
+                        <a class="dropdown-item" href="escritorio.html">Escritorios y Mesas</a>
+                        <a class="dropdown-item" href="Estanteria.html">Estanterias</a>
+                        <a class="dropdown-item" href="contact.html">Muebles Personalizados</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="we.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contactenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Suscripcion</a>
+                </li>
+            </ul>
+            <ul class="form-inline my-2 my-lg-0 text-center">
+                <div class="mr-sm-2">
+                    <a clase="nav-link del float-right" href="register.html"><img src="icon/shopping-cart.png"></a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="we.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contactenos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="register.html">Suscripcion</a>
-            </li><!--
-            <li class="nav-item">
-                <a class="nav-link float-right" href="register.html"><img class="icon" src="icon/shopping-cart.png"></a>
-            </li>-->
-        </ul>
+            </ul>
+            </ul>
+            <ul class="form-inline my-2 my-lg-0 " >
+                <div class="mr-sm-2 text-center">
+                    <h4 clase="nav-link float-right"><Label>0</Label></h4>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="alert text-center text-uppercase font-weight-bolder" style="background-color: rgb(102, 110, 133); color: rgb(255, 255, 255);" role="alert">
+        <h1>Armarios</h1>
+    </div><br>
+
+    <div class="modal-cards">
+        <div class="card-deck">
+            <div class="card colorcard">
+                <div class="modal-container">
+                    <img src="imagen/Armarios/armario_1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_001</h5>
+                    <p class="card-text">Caracteristicas: Color Crema</p>
+                    <p class="card-text">Precio: 650 BS</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_2.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_002</h5>
+                    <p class="card-text">Caracteristicas: Color Cafe con Manchas negras</p>
+                    <p class="card-text">Precio: 500 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div><br>
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_3.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_003</h5>
+                    <p class="card-text">Caracteristicas: Color Chicle</p>
+                    <p class="card-text">Precio: 675 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_4.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_004</h5>
+                    <p class="card-text">Caracteristicas: Color Blanco Con Luces</p>
+                    <p class="card-text">Precio: 1445 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_5.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_005</h5>
+                    <p class="card-text">Caracteristicas: Color Negro con Franja Blanca</p>
+                    <p class="card-text">Precio: 735 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_6.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_006</h5>
+                    <p class="card-text">Caracteristicas: Color Blanco Simple</p>
+                    <p class="card-text">Precio: 460 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_7.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_007</h5>
+                    <p class="card-text">Caracteristicas: Color Blanco Clasico</p>
+                    <p class="card-text">Precio: 525 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_8.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_008</h5>
+                    <p class="card-text">Caracteristicas: Color Blanco Simple Con Puertas</p>
+                    <p class="card-text">Precio: 500 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+            <div class="card colorcard">
+                <img src="imagen/Armarios/armario_9.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Codigo: ARM_009</h5>
+                    <p class="card-text">Caracteristicas: Color Blanco Moderno</p>
+                    <p class="card-text">Precio: 740 Bs</p>
+                    <input class="btn btn-primary" type="submit" value="Comprar">
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="alert-primary text-center" role="alert">
+        <div class="alert-primary text-center" role="alert">
+            <h4>IMPORTANTE</h4>
+            Para Cualquier Consulta <a href="contact.html" class="alert-link">Contactenos</a>, Ayudanos Enviandonos EL Codigo Del Mueble.
+        </div>
+    </div><br>
+
+    <div class="notificacion" id="vent">
+        <div id="cerrar"><a href="javascript:cerrar()"><img src="icon/close.png"></a></div><br>
+        No Hay Pagina 2 Por El Momento, Lo Siento.
+    </div>
+
+    <nav aria-label="...">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+            </li>
+                <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                    1
+                <span class="sr-only">(current)</span>
+                </span>
+            </li>
+            <li class="page-item">
+            <a class="page-link" href="javascript:abrir();">Next</a>
+        </li>
+        </ul>
     </nav>
 
     <table class="table text-center">
@@ -57,9 +195,16 @@
             </tr>
         </thead>
     </table>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script>
+        function abrir(){
+             document.getElementById("vent").style.display="block";
+        }
+
+        function cerrar(){
+            document.getElementById("vent").style.display="none";
+        }
+    </script>
+
 </body>
 </html>
