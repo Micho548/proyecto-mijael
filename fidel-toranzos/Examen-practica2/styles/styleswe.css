@@ -10,7 +10,12 @@
     justify-content: center;
 }
 
-.text-border{
-    padding: 10rem;
+.card{
+    border-radius: 25px;
+}
+
+.container{
+    width: 1150px;
+    height: 550px;
     margin: auto;
 }
