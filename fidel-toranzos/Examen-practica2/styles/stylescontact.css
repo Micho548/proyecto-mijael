@@ -1,0 +1,9 @@
+.colorcontact{
+    background-color:rgba(243, 231, 231, 0.815); filter:alpha(opacity=40); opacity: 0.9;
+    border-radius: 20px;
+}
+
+form{
+    padding: 10px;
+    margin: auto;
+}

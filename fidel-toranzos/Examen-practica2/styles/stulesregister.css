@@ -1,4 +1,15 @@
-.pso{
+.card{
+    padding: 65px;
     text-align: center;
     margin: auto;
+}
+
+.alert{
+    margin: auto;
+    padding: 55px;
+}
+
+.container{
+    background-color: rgba(243, 231, 231, 0.815); 
+    border-radius: 15px;   
 }

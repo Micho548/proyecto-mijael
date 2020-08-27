@@ -1,0 +1,42 @@
+.card-deck{
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.alert{
+    margin: auto;
+    padding: 65px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+.card-deck img{
+    border-radius: 15px;
+    height: 450px;
+}
+.notificacion{
+    background-color: #007bff;
+    width: 30%;
+    color: cornsilk;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    min-height: 140px;
+    border-radius: 20px;
+    position: fixed;
+    left: 35%;
+    top: 35%;
+    display: none;
+}
+
+#cerrar{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+.modal-cards.active{
+    background-color: rgba(0, 0, 0, 0.70);
+    position: relative;
+}
