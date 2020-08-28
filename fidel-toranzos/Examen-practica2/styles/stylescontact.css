@@ -4,6 +4,15 @@
 }
 
 form{
-    padding: 10px;
-    margin: auto;
+    padding: 5px;
+    margin: 18px;
 }
+
+.card{
+    border-radius: 20px;
+}
+
+.containercontact{
+    width: 400px;
+}
+

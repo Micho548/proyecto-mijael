@@ -1,15 +1,11 @@
-.card{
-    padding: 65px;
-    text-align: center;
-    margin: auto;
-}
-
 .alert{
     margin: auto;
-    padding: 55px;
+    padding: 75px;
+    border-radius: 20px;
 }
 
 .container{
-    background-color: rgba(243, 231, 231, 0.815); 
-    border-radius: 15px;   
+    background-color: rgba(187, 176, 176, 0.815); 
+    border-radius: 25px; 
+    padding: 15px;  
 }
