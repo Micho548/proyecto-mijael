@@ -25,3 +25,14 @@ th,td {
     border-radius: 25px;
 }
 
+.modal-body img{
+    width: 470px;
+    height: 350px;
+    opacity: none !important;
+}
+
+.modal-body .modal-header{
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
