@@ -31,8 +31,19 @@ $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
 })
 
-var cont = 0;
+var cont = 0; 
 function aumento(){
-    cont++;
-    document.getElementById("incrementar").innerHTML=cont;
+    if(document.getElementById("incrementar")) {
+        cont++;
+        document.getElementById("incrementar").innerHTML=cont;
+    }
+    if(document.getElementById("ver")) {
+        document.getElementById("ver").innerHTML=cont;
+    }       
 }
+
+function vaciar(){
+        cont=0;
+        document.getElementById("incrementar").innerHTML=cont;
+        document.getElementById("ver").innerHTML=cont;
+    }
