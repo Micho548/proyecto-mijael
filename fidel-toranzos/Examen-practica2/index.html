@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/stylesIndex.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Meraki.Muebles.Personalizados</title>
 </head>
 <body>  
@@ -43,18 +44,35 @@
             </ul>
             <ul class="form-inline my-2 my-lg-0 text-center">
                 <div class="mr-sm-2">
-                    <a clase="nav-link del float-right" href="register.html"><img src="icon/shopping-cart.png"></a>
+                    <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#car"><img src="icon/shopping-cart.png"></button>
                 </div>
             </ul>
             </ul>
             <ul class="form-inline my-2 my-lg-0 " >
                 <div class="mr-sm-2 text-center">
-                    <h4 clase="nav-link float-right"><Label>0</Label></h4>
+                    <h4 clase="nav-link float-right"><Label id="incrementar">0</Label></h4>
                 </div>
             </ul>
         </div>
     </nav>
 
+    <div class="modal fade" id="car" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: rgb(202, 206, 214);">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Carrito de Compra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <label><h4>Total Items En Carrito: </h4></label><label id="ver"> 0</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="vaciar()">Vaciar Carrito</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Comprar Items</button>
+                </div>
+            </div>
+        </div>
+    </div>
         
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -167,16 +185,10 @@
             </div>
         </div><hr>
 
-        <div class="card bg-dark text-white">
-            <img src="imagen/cardProduc/tv_two.jpg" class="card-img opacuty" style="height: 550px;">
-            <div class="card-img-overlay">
-                <h1 class="card-title">Aproveche Nuestros Descuentos</h1>
-                <h1 class="card-title">25% Al 40% </h1>
-                <h2 class="card-title">Por El Mes De La Llajta</h2>
-                <h2>14 De Septiembre</h2>
-                <p class="card-text">MERAKI Muebles Personalizados</p>
-            </div>
-        </div><hr>
+        <section class="contenedor">
+            <div class="parallax"></div>
+            <p><h1 class="titulo">Aproveche Nuestros Descuentos <br>Del 25% al 40$</h1></p>
+        </section><hr>
 
         <div class="media">
             <img src="icon/mueble.png" class="align-self-center mr-3" alt="...">
@@ -240,13 +252,19 @@
                 </div>
             </div>
             <div class="footer-copy-redes">
-                <div class="main copy redes">
+                <div class="main-copy-redes">
                     <div class="footer-copy text-center">
                         &copy; 2020, Todos los derechos reservados - Meraki Muebles Personalizados.
+                    </div>
+                    <div class="footer-redes">
+                        <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/login?lang=es" class="fa fa-twitter"></a>
+                        <a href="https://www.youtube.com/" class="fa fa-youtube-play"></a>
+                        <a href="https://github.com/" class="fa fa-github"></a>
                     </div>
                 </div>
             </div>
         </footer>
-    
+        <script src="javaScript/javaindex.js"></script>
 </body>
 </html>

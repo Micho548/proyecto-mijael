@@ -1,11 +1,3 @@
-function abrir(){
-    document.getElementById("vent").style.display="block";
-}
-
-function cerrar(){
-    document.getElementById("vent").style.display="none";
-}
-
 $(document).ready(function () {
     $('#tablax').DataTable({
         language: {
@@ -35,9 +27,23 @@ $(document).ready(function () {
     });
 });
 
-function mostrar(input){
-    var img=document.getElementById("img");
-    if(input.value=="Armario Contemporaneo"){
-        img.style.visibility="visible";
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+})
+
+var cont = 0; 
+function aumento(){
+    if(document.getElementById("incrementar")) {
+        cont++;
+        document.getElementById("incrementar").innerHTML=cont;
     }
+    if(document.getElementById("ver")) {
+        document.getElementById("ver").innerHTML=cont;
+    }       
 }
+
+function vaciar(){
+        cont=0;
+        document.getElementById("incrementar").innerHTML=cont;
+        document.getElementById("ver").innerHTML=cont;
+    }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/stylesIndex.css">
     <link rel="stylesheet" href="styles/stulesregister.css">
     <link rel="stylesheet" href="styles/styleswe.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Suscripcion</title>
 </head>
 <body>
@@ -45,17 +46,35 @@
             </ul>
             <ul class="form-inline my-2 my-lg-0 text-center">
                 <div class="mr-sm-2">
-                    <a clase="nav-link del float-right" href="register.html"><img src="icon/shopping-cart.png"></a>
+                    <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#car"><img src="icon/shopping-cart.png"></button>
                 </div>
             </ul>
             </ul>
             <ul class="form-inline my-2 my-lg-0 " >
                 <div class="mr-sm-2 text-center">
-                    <h4 clase="nav-link float-right"><Label>0</Label></h4>
+                    <h4 clase="nav-link float-right"><Label id="incrementar">0</Label></h4>
                 </div>
             </ul>
         </div>
     </nav>
+
+    <div class="modal fade" id="car" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: rgb(202, 206, 214);">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Carrito de Compra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <label><h4>Total Items En Carrito: </h4></label><label id="ver"> 0</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="vaciar()">Vaciar Carrito</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Comprar Items</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="card bg-dark text-white">
         <img src="imagen/Registro/register.jpg" class="card-img opacuty" style="height: 450px;">
@@ -70,7 +89,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-lg">
         <table class="table" border="2">    
                 <th>
                     <h4 class="text-center">Registre Su Suscripcion</h4><br>
@@ -116,6 +135,7 @@
                 </th>
             </tr>
         </table>
+        <p><h3 class="text-center" style="color: black;">Para la suscripcion llene todos los datos</h3></p>
     </div>
 
     <table class="table text-center">
@@ -162,9 +182,15 @@
             </div>
         </div>
         <div class="footer-copy-redes">
-            <div class="main copy redes">
+            <div class="main-copy-redes">
                 <div class="footer-copy text-center">
                     &copy; 2020, Todos los derechos reservados - Meraki Muebles Personalizados.
+                </div>
+                <div class="footer-redes">
+                    <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/login?lang=es" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube-play"></a>
+                    <a href="https://github.com/" class="fa fa-github"></a>
                 </div>
             </div>
         </div>

@@ -10,6 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/stylesIndex.css">
     <link rel="stylesheet" href="styles/styleswe.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Nosotros</title>
 </head>
 <body>
@@ -44,17 +45,35 @@
             </ul>
             <ul class="form-inline my-2 my-lg-0 text-center">
                 <div class="mr-sm-2">
-                    <a clase="nav-link del float-right" href="register.html"><img src="icon/shopping-cart.png"></a>
+                    <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#car"><img src="icon/shopping-cart.png"></button>
                 </div>
             </ul>
             </ul>
             <ul class="form-inline my-2 my-lg-0 " >
                 <div class="mr-sm-2 text-center">
-                    <h4 clase="nav-link float-right"><Label>0</Label></h4>
+                    <h4 clase="nav-link float-right"><Label id="incrementar">0</Label></h4>
                 </div>
             </ul>
         </div>
     </nav>
+
+    <div class="modal fade" id="car" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: rgb(202, 206, 214);">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Carrito de Compra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <label><h4>Total Items En Carrito: </h4></label><label id="ver"> 0</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="vaciar()">Vaciar Carrito</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Comprar Items</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="card bg-dark text-white">
         <img src="imagen/WeMeraki/nostors.jpg" class="card-img opacuty" style="height: 450px;">
@@ -72,6 +91,25 @@
         <h1 class="text-center">Nuestra Historia</h1>
         <p class="text-justify">Desde hace más de 5 años dedicados a la fabricación de muebles, que con esfuerzo y perseverancia iniciaron nuestros fundadores Franz Ramoz Hinojoda y Lucy Fuentes Lazarte. Durante el tiempo, nuestra empresa ha acumulado vastos conocimientos de nuestra industria, obteniendo una mano de obra calificada que nos direccionó a brindar una gran variedad de productos al mercado. En el año 2017 se implementó nuevos procesos y se adquirió última tecnología para la producción de muebles a escala masiva y Sin Perder La Calidad De Muebles Que Realiza MERAKI Muebles Personalizados</p>
         <p class="text-justify">Ahora toda la experiencia acumulada se refleja en casi todos en ellos, quienes vivieron los éxitos y fracasos del negocio desde que se inaguro la empresa, en la actualidad trabajamos continuando las metas trazadas los anteriores años, con una misión y visión más firme; siempre enfocados en nuestros clientes, trabajamos con una gama cada vez más amplia de muebles y una proyección de desarrollo empresarial en pro de ofrecer lo mejores beneficios y productos al mercado.</p>
+    </div>
+
+    <div class="card-deck" style="width: 850px;">
+        <div class="card">
+            <img src="imagen/WeMeraki/fotoman.jpg" style="width: 100%; height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Franz Ramoz Hinojosa</h5>
+                <p class="card-text">Dueño de la empresa (Negocio En Pareja).</p>
+                <p class="card-text"><small class="text-muted">Meraki</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imagen/WeMeraki/fotowoman.jpg" style="width: 100%; height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lucy Fuentes Lazarte</h5>
+                <p class="card-text">Dueño de la empresa (Negocio En Pareja).</p>
+                <p class="card-text"><small class="text-muted">Meraki</small></p>
+            </div>
+        </div>
     </div>
 
     <div class="accordion" id="accordionExample">
@@ -149,9 +187,15 @@
             </div>
         </div>
         <div class="footer-copy-redes">
-            <div class="main copy redes">
+            <div class="main-copy-redes">
                 <div class="footer-copy text-center">
                     &copy; 2020, Todos los derechos reservados - Meraki Muebles Personalizados.
+                </div>
+                <div class="footer-redes">
+                    <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/login?lang=es" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube-play"></a>
+                    <a href="https://github.com/" class="fa fa-github"></a>
                 </div>
             </div>
         </div>
