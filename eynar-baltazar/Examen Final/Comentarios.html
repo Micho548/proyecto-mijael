@@ -10,10 +10,35 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <script type="text/javascript" src="js/java.js"></script>
         <title>Comments</title>    
     </head>  
     <body>
-        <h6 class="card-title">Comments</h6>   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="img/logo.png" width="50" height="50" />
+            <a class="navbar-brand tss" href="Nutricion.html">Home</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link tss" href="Registrar.html">Register <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tss" href="Login.html">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled tss" href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/donate" tabindex="-1" aria-disabled="true">Donate Solidarity
+                            COVID-19</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <h1>Comments</h1>   
         <ul class="list-unstyled">
             <li class="media">
             <img src="img/UsuMujer.png" class="mr-3" alt="...">
@@ -36,10 +61,12 @@
             </div>
             </li>
             <div class="vermas">
-            <a href="Comentarios.html" class="card-link">Ver mas..</a>
+            <a href="Comentarios.html" class="card-link" onclick="intente();">See more..</a>
             </div>
         </ul>
+        <div class="comen">
         <form>
+            
             <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
@@ -50,13 +77,14 @@
                 <input type="password" class="form-control" id="inputPassword4">
             </div>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-6 coo">
                 <label for="inputEmail4">Write your comment</label>
                 <input type="text" class="form-control" id="Comment">
             </div>
+            <a class="btn btn-outline-success my-2 my-sm-0" href="" onclick="enviar();" role="button">Send comment</a>
         </form>
+        </div>
         <h6><img src="img/RedesSociales.png" alt=""></h6>
-
-        <div class="sd">© 2020 Nutricion Aviso Legal</div>
+        <p><div class="sd">© 2020 Nutrition legal notice</div></p>
     </body>  
 </html>
