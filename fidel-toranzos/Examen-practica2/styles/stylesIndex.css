@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-size: 21px;
+}
+
+h3{
+    color: #280ca3;
+}
+
+hr{
+    background-color: black;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-brand img{
+    width: 85px;
+    height: 40px;
+}
+
+.colorcard{
+    border-radius: 10px;
+    background-color: rgb(223, 211, 211);
+}
+
+.img-fluid{
+    width: 1400px;
+    height: 750px;
+}
+
+.img{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transition: all 0.5s;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.11);
+}
+
+.sizeletter{
+    font-size: 1rem;
+}
+
+.mr-sm-2 img{
+    margin: auto;
+    width: 45px;
+    height: 35px;
+}
+
+.opacuty{
+    opacity: 0.4;
+}
+
+footer{
+    width: 100%;
+}
+
+.footer-container{
+    width: 100%;
+    background-color: silver;
+    color: rgb(39, 40, 41);
+}
+
+.footer-main{
+    width: 98%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna{
+    width: calc(100% / 4);
+    text-align: justify;
+}
+
+.footer-main .footer-columna:nth-child(2){
+    padding: 0 20px;
+}
+
+.footer-main .footer-columna h3{
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.footer-main .footer-columna span p{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.footer-copy-redes{
+    width: 100%;
+    background: #bdb9b9;
+    border-top: 3px solid rgb(124, 122, 122);
+}
+
+.main-copy-redes{
+    width: 98%;
+    max-width: 1000px;
+    padding: 15px 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -ms-align-items: center;
+	align-items: center;
+}
+
+.main-copy-redes .footer-copy{
+    width: 70%;
+}
+
+.main-copy-redes .footer-redes{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-copy-redes .footer-redes a{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: rgb(68, 59, 187);
+    text-align: center;
+}
+
+.containerformbuy{
+    width: 450px;
+}
+
+.contenedor {
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.parallax {
+    position: absolute;
+    width: 100%;
+    background-image: url(../imagen/edificio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+    z-index: -1;
+}
+
+.titulo{
+    color: mediumblue;
+    font-size: 4em;
+    text-align: center;
+    align-items: center;
+    margin-top: -200px;
+}

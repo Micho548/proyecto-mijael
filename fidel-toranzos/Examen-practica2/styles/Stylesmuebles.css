@@ -1,0 +1,38 @@
+th,td {
+    padding: 0.4rem !important;
+}
+
+.alert{
+    margin: auto;
+    padding: 75px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+.card-deck img{
+    border-radius: 15px;
+    height: 450px;
+}
+
+.containerimg img{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 550px;
+    height: 450px;
+    top: 25%;
+    left: 30%;
+    z-index: 3;
+    border-radius: 25px;
+}
+
+.modal-body img{
+    width: 470px;
+    height: 350px;
+    opacity: none !important;
+}
+
+.modal-body .modal-header{
+    border-radius: 20px;
+    opacity: 0.6;
+}
+

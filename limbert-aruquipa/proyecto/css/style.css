@@ -1,0 +1,43 @@
+.navbar{
+  position: absolute;
+  background: transparent !important;
+  width: 100%;
+  z-index: 10;
+  border-bottom:1px solid  rgba(235, 23, 23);
+}
+.nav-link{
+  color: #f3f1f1 !important;
+  margin-right: 5px;
+}
+.nav-link:hover{
+  background: #fd0000d7;
+  border-radius: 10px;
+}
+.home{
+  margin-right: 5px;
+  color: #04afff;
+}
+.home:hover{
+  color: #0a0a0a !important;
+}
+#login{
+  border:2px solid #00aeff;
+  border-radius: 20px;
+  padding: 5px 13px !important;
+  line-height: 30px;
+}
+#login:hover{
+  background: #119e0c !important ;
+  color: #fff !important;
+  border:2px solid #fff !important;
+}
+.dropdown-item:hover{
+  background: #fd0000d7;
+  color: #fff;
+}
+.search-bar{
+  position: absolute;
+  z-index: 1;
+  top:100px;
+  width: 100%;
+}

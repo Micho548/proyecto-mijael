@@ -1,0 +1,137 @@
+
+
+h1 {
+    color: rgb( 19, 141, 117 );
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+.a{
+    color:rgb( 19, 141, 117 )
+}
+.galeria li a{
+    color: rgb( 19, 141, 117 );
+    font-family: 'Raleway', sans-serif; 
+}
+/*Estilos del modal*/
+
+.modal {
+    display: none;
+    color: black;
+    
+}
+.modal a{
+    color:rgb( 19, 141, 117 );
+}
+
+.modal:target {
+    
+    display: block;
+    position: fixed;
+    background:url(https://thumbs.dreamstime.com/b/fondo-verde-claro-de-la-textura-del-vidrio-esmerilado-color-124081659.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+    color:rgb( 19, 141, 117 );
+}
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a {
+    color:rgb( 19, 141, 117 );
+    font-size: 40px;
+    text-decoration-style: dotted;
+    margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+    color: rgb( 19, 141, 117 );
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: none;
+    width: 50px;
+    height: 30px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color:rgb( 19, 141, 117 ) ;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.comprar{
+    display: block;
+    background:url(https://thumbs.dreamstime.com/b/fondo-verde-claro-de-la-textura-del-vidrio-esmerilado-color-124081659.jpg);
+    width: 95px;
+    height: 35px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(102, 148, 167);
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    border-color:rgb( 19, 141, 117 );
+    border-style: dotted;
+    font-family: 'Raleway', sans-serif;
+}
+.neg{
+    color: black;
+}

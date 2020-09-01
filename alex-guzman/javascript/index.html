@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de javascript</title>
+    <script>
+        function myFuntion(){
+            document.getElementById("demo").innerHTML = "cambio de parrafo";
+        }
+        src="js/myScript.js"
+    </script>
+    <script src="js/myScript.js"></script>
+</head>
+<body>
+    <h2>Javascript en head</h2>
+    <p id="demo">El parrafo que cambiara </p>
+    <button type="button" onclick="myFuntion()">Cambiar</button>
+    <h2>Javascript en archivo externo</h2>
+    <button type="button" onclick="myFuntions()">Presione para ver </button>
+    <p id="timer">Ver</p>
+</body>
+</html>

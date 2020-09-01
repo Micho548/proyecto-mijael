@@ -1,0 +1,11 @@
+.alert{
+    margin: auto;
+    padding: 75px;
+    border-radius: 20px;
+}
+
+.container-lg{
+    background-color: rgba(187, 176, 176, 0.815); 
+    border-radius: 25px; 
+    padding: 15px;  
+}

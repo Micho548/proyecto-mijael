@@ -1,0 +1,30 @@
+.gallery{
+    margin-left: 180Px; 
+ }
+ .gallery img{
+     transition: 1s;
+     padding: 15px;
+     width: 300px;
+     height: 200px;
+ }
+ .gallery img:hover{
+     filter: grayscale(100%);
+     transform: scale(1.1);
+ }
+ 
+ #Hora{
+     font-size: 30px;
+     color: rgb(247, 246, 245);
+     margin-right: 700px;
+ }
+.nav-link{
+    color: antiquewhite;
+} 
+.bg-dark{
+	background: rgb(41, 50, 60) !important;
+}
+.navbar-nav a:hover{
+    color: rgb(184, 20, 53);
+    
+}
+

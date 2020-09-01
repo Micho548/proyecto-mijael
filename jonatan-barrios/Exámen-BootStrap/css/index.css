@@ -1,0 +1,13 @@
+.font-content-index{
+	background-image: url(img/font-index.jpg);
+}
+.OS-phones{
+	background-color: rgba(228, 29, 7, 0.9);
+	color: #000;
+	width: 100%;
+}
+
+.content-dest{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}

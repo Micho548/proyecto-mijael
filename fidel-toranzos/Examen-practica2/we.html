@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/stylesIndex.css">
+    <link rel="stylesheet" href="styles/styleswe.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nosotros</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #d1d0d0;">
+        <a class="navbar-brand"><img src="imagen/logo_meraki.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Hogar <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos </a>
+                    <div class="dropdown-menu sizetext" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="armario.html">Armarios</a>
+                        <a class="dropdown-item" href="escritorio.html">Escritorios y Mesas</a>
+                        <a class="dropdown-item" href="Estanteria.html">Estanterias</a>
+                        <a class="dropdown-item" href="contact.html">Muebles Personalizados</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="we.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contactenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Suscripcion</a>
+                </li>
+            </ul>
+            <ul class="form-inline my-2 my-lg-0 text-center">
+                <div class="mr-sm-2">
+                    <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#car"><img src="icon/shopping-cart.png"></button>
+                </div>
+            </ul>
+            </ul>
+            <ul class="form-inline my-2 my-lg-0 " >
+                <div class="mr-sm-2 text-center">
+                    <h4 clase="nav-link float-right"><Label id="incrementar">0</Label></h4>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="car" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: rgb(202, 206, 214);">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Carrito de Compra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <label><h4>Total Items En Carrito: </h4></label><label id="ver"> 0</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="vaciar()">Vaciar Carrito</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Comprar Items</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-dark text-white">
+        <img src="imagen/WeMeraki/nostors.jpg" class="card-img opacuty" style="height: 450px;">
+        <div class="card-img-overlay abs-center">
+            <ul class="list-unstyled">
+                <div class="mr-sm-2">
+                    <li><h2 class="card-title text-center">Sobre Nosotros</h2></li>
+                </div>
+                <li></li><h2 class="card-title">Mas De 5 Años Trabajando Para Usted</h2></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container text-border text-capitalize text-center">
+        <h1 class="text-center">Nuestra Historia</h1>
+        <p class="text-justify">Desde hace más de 5 años dedicados a la fabricación de muebles, que con esfuerzo y perseverancia iniciaron nuestros fundadores Franz Ramoz Hinojoda y Lucy Fuentes Lazarte. Durante el tiempo, nuestra empresa ha acumulado vastos conocimientos de nuestra industria, obteniendo una mano de obra calificada que nos direccionó a brindar una gran variedad de productos al mercado. En el año 2017 se implementó nuevos procesos y se adquirió última tecnología para la producción de muebles a escala masiva y Sin Perder La Calidad De Muebles Que Realiza MERAKI Muebles Personalizados</p>
+        <p class="text-justify">Ahora toda la experiencia acumulada se refleja en casi todos en ellos, quienes vivieron los éxitos y fracasos del negocio desde que se inaguro la empresa, en la actualidad trabajamos continuando las metas trazadas los anteriores años, con una misión y visión más firme; siempre enfocados en nuestros clientes, trabajamos con una gama cada vez más amplia de muebles y una proyección de desarrollo empresarial en pro de ofrecer lo mejores beneficios y productos al mercado.</p>
+    </div>
+
+    <div class="card-deck" style="width: 850px;">
+        <div class="card">
+            <img src="imagen/WeMeraki/fotoman.jpg" style="width: 100%; height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Franz Ramoz Hinojosa</h5>
+                <p class="card-text">Dueño de la empresa (Negocio En Pareja).</p>
+                <p class="card-text"><small class="text-muted">Meraki</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imagen/WeMeraki/fotowoman.jpg" style="width: 100%; height: 400px;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lucy Fuentes Lazarte</h5>
+                <p class="card-text">Dueño de la empresa (Negocio En Pareja).</p>
+                <p class="card-text"><small class="text-muted">Meraki</small></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <h2>MISION</h2>
+                </button>
+            </h2>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <h3><p class="text-center" style="padding: 35px;">Fabricar y comercializar muebles de diferentes estilos tomando en cuenta las tendencias del mercado, ofreciendo productos y servicios de calidad a precios competitivos, generando talento humano calificado.</p></h3>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h2>VISION</h2>
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            <h3><p class="text-center" style="padding: 35px;">Ser la empresa líder en fabricación y comercialización de muebles logrando reconocimiento nacional y ofreciendo productos de la más alta calidad.</p></h3>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th scope="col" class="float-left">Métodos de pago:
+                    <div class="containerformbuy text-left">
+                        En tiendas, efectivo y terminales POS de REDENLACE
+                        y para compras ONLINEA transferencias Bancarias.
+                    </div>
+                </th>
+                <th scope="col"><img src="icon/mastercad.png"></th>
+                <th scope="col"><img src="icon/redenlace.jpg"></th>
+                <th scope="col"><img src="icon/visa.png"></th>
+            </tr>
+        </thead>
+    </table>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-columna">
+                    <h3>Somos</h3>
+                    <img src="imagen/logo_meraki.jpg" alt="">
+                </div>
+                <div class="footer-columna">
+                    <h3>Suscribete</h3>
+                    <h5>Te Mantendremos Informado.</h5>
+                    <a class="btn btn-outline-primary" href="register.html" role="button">Suscribete</a>
+                </div>
+                <div class="footer-columna">
+                    <h3>Direccion</h3>
+                    <span><p>Calle Esteban Arce y Lanza</p>
+                    <span><p>+(591) 72452008</p>
+                    <span><p>Meraki.Muebles.Personalizados.com</p>
+                </div>
+                <div class="footer-columna">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Desde hace más de 7 años dedicados a la fabricación de muebles,
+                        con esfuerzo y perseverancia iniciaron nuestros fundadores Franz Ramoz Hinojoda.
+                        y Lucy Fuentes Lazarte. Durante el tiempo,
+                        nuestra empresa ha acumulado vastos conocimientos de nuestra industria.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-redes">
+            <div class="main-copy-redes">
+                <div class="footer-copy text-center">
+                    &copy; 2020, Todos los derechos reservados - Meraki Muebles Personalizados.
+                </div>
+                <div class="footer-redes">
+                    <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/login?lang=es" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube-play"></a>
+                    <a href="https://github.com/" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.gallery{
+   margin-left: 180Px; 
+}
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 300px;
+    height: 150px;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+#Hora{
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-right: 700px;
+}
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pangolin">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   <title>Document</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-mycolor">
+      <a class="navbar-brand font" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="#">Action</a>
+               <a class="dropdown-item" href="#">Another action</a>
+               <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <div id="demo" class="carousel slide" data-rider="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#demo" data-slide-to="0" class="active"></li>
+         <li data-target="#demo" data-slide-to="1"></li>
+         <li data-target="#demo" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+
+         <div class="carousel-item active">
+            <img src="images/la.jpg" style="width: 100%;">
+         </div>
+
+         <div class="carousel-item active">
+            <img src="images/ny.jpg" style="width: 100%;">
+         </div>
+
+         <div class="carousel-item active">
+            <img src="images/chicago.jpg" style="width: 100%;">
+         </div>
+      </div>
+
+
+      <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+   </div>
+
+   <button type="button" onclick="document.getElementById('hour').innerHTML = word()">
+      mostrar hora
+   </button>
+   <p id="hour"></p>
+
+   <div class="container top">
+      <div class="card" style="width: 17em;">
+         <img src="images/image1.webp" alt="My image">
+         <div class="card-body">
+            <h3 class="card-header-title">titulo</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate illo tempora esse perspiciatis corporis magnam. Voluptatem, beatae illo! Ipsa tempora unde error tenetur. Modi, recusandae? Porro neque tempora ullam?</p>
+         </div>
+      </div>
+
+      <div class="card" style="width: 17em;">
+         <img src="images/983794168.jpg" alt="My image" style="height: 400px;">
+         <div class="card-body">
+            <h3 class="card-header-title">titulo</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate illo tempora esse perspiciatis corporis magnam. Voluptatem, beatae illo! Ipsa tempora unde error tenetur. Modi, recusandae? Porro neque tempora ullam?</p>
+         </div>
+      </div>
+   </div>
+   <script>
+      var myData;
+
+      const myOtherData = 'Homa mundo!';
+
+      function checkData() {
+         if(document.form1.threeChar.value.lenght == 3) {
+            return true;
+         } else {
+            alert('insert more characters');
+            document.form1.threeChar.value + 'not valid';
+            return false;
+         }
+      }
+
+      function word() {
+         let myData1 = Math.PI;
+         console.log(myData1);
+         return "hola mundo!";
+      }
+   </script>
+</body>
+</html>

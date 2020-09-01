@@ -1,0 +1,32 @@
+.centerall{
+    display:inline-block !important;
+    text-align:center !important;
+    justify-content: center !important;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 55px;
+    background-color: rgb(216, 218, 219);
+}
+
+.container{
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+}
+
+.card-deck{
+    margin: auto;
+    padding: 55px;
+    text-align: center;
+}
+
+.card-deck img{
+    border-radius: 45px;
+}
