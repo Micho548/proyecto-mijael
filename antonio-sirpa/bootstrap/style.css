@@ -1,0 +1,41 @@
+.carousel-item{
+    width: 100%;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 900px) {
+    .carousel-item {
+    height: 280px;
+    }
+}
+
+.navbar {
+    background-color: #917a7a;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+    
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+
+.ewk_cont_footer {
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
+    color:#fff;
+    margin-top: 100px;
+}
+
+.ewk_cont_footer {
+    color: #fff;
+    display-block;
+}
