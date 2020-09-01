@@ -1,0 +1,24 @@
+.content-carousel{
+	background-color: rgba(156, 154, 154, 0.144);
+	margin: 0;
+    padding: 0;
+	width: 100%;
+}
+.static-image-carousel{
+	background-color: rgba(0, 0, 0, 0.835);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.row {
+	background-size: 1px;
+}
+.thumbnail-content-phones{
+	background: #b3abab; 
+	background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); 
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
